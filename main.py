@@ -2,11 +2,11 @@
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters.command import Command
 import asyncio
-# from aiogram.utils import executor
+
 
 TOKEN = 'токен'
 
-# Создание экземпляров бота и диспетчера
+
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
